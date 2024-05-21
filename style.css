@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.certificados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.certificado {
+    background-color: #2F2F2F;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 20px);
+    max-width: 600px;
+}
+.certificado img {
+    width: 100%;
+    height: auto;
+}
+.certificado h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #2F2F2F;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .certificado {
+        width: calc(100% - 20px);
+    }
+}
